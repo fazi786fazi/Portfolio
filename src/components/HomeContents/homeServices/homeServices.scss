@@ -1,0 +1,35 @@
+.home-services {
+//   border: 2px solid black;
+  padding: 0vh 10vw 3vh 10vw;
+  .home-services-content {
+    text-align: center;
+  }
+  .home-services-content h1 {
+    color: var( --wt-to-bl);
+  }
+  p{
+    color: var(  --color);
+  }
+  .services-button {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .link {
+    height: 15vh;
+    width: 37vw;
+    border-radius: 10px;
+    background:var( --bgBtoB);
+    margin: 1vw;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .icon-name {
+      padding-left: 15px;
+      color: white;
+    }
+    .icon {
+      padding-right: 15px;
+    }
+  }
+}

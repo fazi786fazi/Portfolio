@@ -1,0 +1,45 @@
+.game-area-container{
+box-sizing: border-box;
+width: 100%;
+display: flex;
+justify-content: space-around;
+margin: 10px;
+
+.game-details{
+
+ width: 45%;
+ color: var(--color);
+
+ h1,h3{
+    margin: 0px;
+ }
+}
+.game{
+    position: relative;
+    width: 45%;
+    overflow: hidden;
+    border: 2px dotted aqua;
+}
+.percentage-section{
+    display: flex;
+    flex-direction: column;
+    .bar{
+        background: gray;
+        border-radius: 10px;
+        width: 100%;
+        overflow: hidden;
+        div{
+            text-align:end;
+            background-color: aqua;
+            border-radius: 10px;
+            width: 50%;
+            padding-right: 5px;
+        }
+
+
+    }
+ 
+  
+}
+
+}

@@ -1,0 +1,21 @@
+// .carousel{
+//     z-index: -1;
+// }
+.carousel-image{
+img{
+    width: 100%;
+    margin: 0;
+    mix-blend-mode: normal;
+    aspect-ratio: 0/0;
+};
+p{
+    text-align: center;
+    color: var(--color);
+}
+}
+.slick-dots li.slick-active button:before{
+  color: var( --wt-to-bl)!important;
+} 
+.slick-dots li button:before{
+    color: var(--color) !important;
+}
