@@ -19,9 +19,9 @@ setIcon(!icon)
   return (
     <div className={mode?"dark":"light-mode"}>
       <div onClick={DarkMode} className="dark-light-mode">{icon?<MdDarkMode size={30} style={{color:"white"}}/>:<MdOutlineDarkMode size={30}  />}</div>
-      {/* <Home /> */}
+      <Home />
       {/* <ToDoList/> */}
-     <Calculator/>
+     {/* <Calculator/> */}
     </div>
   );
 }
